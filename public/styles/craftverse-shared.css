@@ -1,0 +1,24 @@
+/* Shared CraftVerse visual system, aligned with index.html */
+:root{--cv-cream:#fbf7f0;--cv-paper:#fffdf9;--cv-burgundy:#6f273d;--cv-brown:#382b28;--cv-sage:#7e8d73;--cv-terracotta:#bd765d;--cv-border:#e8ded2;--cv-muted:#766b64}
+html,body{font-family:'DM Sans',Arial,sans-serif!important;color:var(--cv-brown)}
+body{background:var(--cv-cream)}
+h1,h2,h3,h4,.page-title,.page-heading h1{font-family:'Playfair Display',Georgia,serif!important;color:var(--cv-brown)}
+a{color:var(--cv-burgundy)}
+.brand,.logo,.footer-brand{font-family:'Playfair Display',Georgia,serif!important;font-weight:700;color:var(--cv-burgundy)!important;text-decoration:none}
+.brand span,.logo span{color:var(--cv-terracotta)}
+button,.primary-button,.secondary-button,.login-button,.back-button,.nav-link,.wishlist-add-cart,.cart-checkout-button,.checkout-button,.add-cart-button,.form-submit{font-family:'DM Sans',Arial,sans-serif}
+button,.primary-button,.secondary-button,.login-button,.back-button,.wishlist-add-cart,.cart-checkout-button,.checkout-button,.add-cart-button,.form-submit{min-height:44px;box-sizing:border-box;border-radius:8px}
+.primary-button,.login-button,.cart-checkout-button,.checkout-button,.form-submit{background:var(--cv-burgundy);color:#fff;border-color:var(--cv-burgundy)}
+button:hover,.primary-button:hover,.login-button:hover{filter:brightness(.96)}
+.topbar,.navbar{background:var(--cv-paper);border-color:var(--cv-border)}
+input,select,textarea{font-family:'DM Sans',Arial,sans-serif;border-color:var(--cv-border)}
+
+.nav-actions{display:flex;align-items:center;gap:10px}
+.nav-actions>a,.nav-actions>button{display:inline-flex;align-items:center;justify-content:center;min-width:44px;height:44px;min-height:44px;box-sizing:border-box}
+.nav-links,.topbar nav{align-items:center}
+.topbar nav a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 12px;box-sizing:border-box}
+.empty-products{grid-column:1/-1;text-align:center;padding:36px 18px;color:var(--cv-muted)}
+
+.brand,.logo,.footer-brand{text-transform:lowercase}
+
+.product-detail-link{color:inherit;text-decoration:none}.product-detail-link:hover{color:var(--cv-burgundy)}
